@@ -1,0 +1,70 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  background-color: #e4f0f0;
+}
+.box {
+  background-color: #01b3b3;
+  width: 118px;
+  height: 20px;
+  margin-right: ;
+  position: absolute;
+  left: 50%;
+  margin-left: -135px;
+  margin-top: 18px;
+  z-index: 1;
+}
+.box p {
+  text-align: center;
+  font-size: 9px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 4px;
+}
+.login {
+  /* border:1px solid red; */
+  background-color: #fbfdfd;
+  width: 256px;
+  height: 296px;
+  padding: 25px;
+  padding-bottom: ;
+  position: absolute;
+  left: 50%;
+  margin-left: -160px;
+  line-height: 0.5;
+  margin-top: 20px;
+}
+.login input {
+  background-color: #e4f0f0;
+  height: 27px;
+  font-style: italic;
+  font-size: 10px;
+}
+.btn {
+  background-color: #01bcbc;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 13px;
+  margin-top: 27px;
+  width: 206px;
+  height: 35px;
+  border: none;
+}
+.label1 {
+  margin-top: 21px;
+  margin-bottom: 12px;
+  font-size: 9px;
+}
+.label2 {
+  margin-top: 16px;
+  margin-bottom: 13px;
+  font-size: 9px;
+}
+.label3 {
+  font-size: 9px;
+  margin-top: 16px;
+  margin-bottom: 12px;
+}

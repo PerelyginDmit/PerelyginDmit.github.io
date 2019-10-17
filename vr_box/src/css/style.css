@@ -1,0 +1,287 @@
+/* шрифты  */
+@font-face {
+  font-family: 'HelveticaNeueCyr_medium';
+  src: url('../fonts/HelveticaNeueCyr-Medium.eot');
+  src: url('../fonts/HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeueCyr-Medium.woff2') format('woff2'), url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Medium.ttf') format('truetype'), url('../fonts/HelveticaNeueCyr-Medium.svg#HelveticaNeueCyr-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HelveticaNeueCyr_light';
+  src: url('../fonts/HelveticaNeueCyr-Light.eot');
+  src: url('../fonts/HelveticaNeueCyr-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeueCyr-Light.woff2') format('woff2'), url('../fonts/HelveticaNeueCyr-Light.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Light.ttf') format('truetype'), url('../fonts/HelveticaNeueCyr-Light.svg#HelveticaNeueCyr-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HelveticaNeueCyr_bold';
+  src: url('../fonts/HelveticaNeueCyr-Bold.eot');
+  src: url('../fonts/HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeueCyr-Bold.woff2') format('woff2'), url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Bold.ttf') format('truetype'), url('../fonts/HelveticaNeueCyr-Bold.svg#HelveticaNeueCyr-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+/* базовые настройки */
+.button {
+  font-size: 1.8rem;
+  font-family: 'HelveticaNeueCyr_bold', sans-serif;
+  text-transform: uppercase;
+  color: #fcfcf6;
+  border: none;
+  background-color: #94ca2d;
+}
+.main {
+  background: url(../img/main-fon.jpg) center no-repeat;
+  background-size: cover;
+}
+.main .header {
+  padding: 2rem;
+  height: 7rem;
+}
+.main .header .logo p {
+  font-size: 2rem;
+  font-family: 'HelveticaNeueCyr_medium', sans-serif;
+}
+.main-content {
+  margin-top: 10rem;
+}
+.main-content h1 {
+  font-size: 3.9rem;
+  font-family: 'HelveticaNeueCyr_bold', sans-serif;
+  color: #fcfcf6;
+}
+.main-content span {
+  display: block;
+  font-size: 3rem;
+  font-family: 'HelveticaNeueCyr_medium', sans-serif;
+  color: #fcfcf6;
+}
+.main-content .button {
+  padding: 1.8rem 5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 28rem;
+  font-size: 1.8rem;
+  font-family: 'HelveticaNeueCyr_bold', sans-serif;
+  text-transform: uppercase;
+  color: #fcfcf6;
+  border: none;
+  background-color: #94ca2d;
+}
+/* шапка */
+.phone {
+  display: table;
+  width: 100%;
+  height: 7rem;
+  text-align: right;
+}
+.phone-block {
+  display: table-cell;
+  vertical-align: middle;
+}
+.phone-block span {
+  font-size: 2.5rem;
+  font-family: 'HelveticaNeueCyr_bold', sans-serif;
+  color: #fcfcf6;
+}
+.phone-block a {
+  display: block;
+  font-size: 2rem;
+  font-family: 'HelveticaNeueCyr_medium', sans-serif;
+  color: #749e24;
+}
+.logo {
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+.logo img {
+  padding: 0.3rem;
+}
+.logo-block {
+  display: table-cell;
+  vertical-align: middle;
+}
+.logo-block p {
+  display: inline-block;
+  font-size: 2rem;
+  color: #fcfcf6;
+}
+/* Описание очков */
+.describe {
+  background: url(../img/description-fon.jpg) no-repeat;
+  background-position: 120px -60px;
+  background-size: cover;
+  background-color: #f8f8f0;
+}
+.describe-header {
+  margin-top: 9rem;
+  margin-bottom: 3.3rem;
+  font-size: 3.5rem;
+  font-family: 'HelveticaNeueCyr_bold', sans-serif;
+}
+.describe p li {
+  font-size: 1.7rem;
+  font-family: 'HelveticaNeueCyr_light', sans-serif;
+}
+.describe-complete {
+  height: 16.4rem;
+}
+.describe-complete h2 {
+  font-size: 2.2rem;
+  font-family: 'HelveticaNeueCyr_medium', sans-serif;
+}
+.describe-complete-list {
+  list-style: none;
+  min-height: 10rem;
+  padding: 0;
+}
+.describe-complete-price {
+  font-size: 2rem;
+}
+.describe-complete-price strong {
+  font-size: 2.5rem;
+  color: #b61919;
+}
+.describe .button {
+  margin-top: 3rem;
+  margin-bottom: 5.5rem;
+  padding: 1.8rem 5rem;
+}
+.describe .wrap {
+  display: table;
+  width: 100%;
+  height: 21rem;
+}
+.describe .wrap-block {
+  display: table-cell;
+  text-align: right;
+  vertical-align: bottom;
+}
+.describe .wrap-block p {
+  font-size: 1.7rem;
+  font-family: 'HelveticaNeueCyr_medium', sans-serif;
+}
+.scope h3 {
+  font-size: 2.2rem;
+  font-family: 'HelveticaNeueCyr_medium', sans-serif;
+}
+.scope p {
+  font-size: 1.7rem;
+  font-family: 'HelveticaNeueCyr_light', sans-serif;
+}
+.scope-silver {
+  margin-top: 8.5rem;
+  height: 33.7rem;
+}
+.scope-silver-video {
+  display: table;
+  width: 100%;
+}
+.scope-silver-video-block {
+  display: table-cell;
+}
+.scope-silver-video-block img {
+  display: inline-block;
+  padding: 1rem;
+  margin-top: 1.1rem;
+}
+.scope-phone-world {
+  display: table;
+  width: 100%;
+}
+.scope-phone-world-block {
+  display: table-cell;
+}
+.scope-phone-world-block img {
+  display: inline-block;
+  padding: 1rem;
+  margin-top: 1.1rem;
+}
+.scope-phone-iphone {
+  -webkit-transform: translateY(-45%);
+          transform: translateY(-45%);
+}
+.billet {
+  background: url(../img/billet/nef.jpg) center no-repeat;
+  background-size: cover;
+  color: #fcfcf6;
+}
+.billet-header {
+  margin-top: 7.5rem;
+  font-size: 3.5rem;
+  font-family: 'HelveticaNeueCyr_bold', sans-serif;
+}
+.billet-header-title {
+  margin-top: 1.6rem;
+  margin-bottom: 3.5rem;
+  width: 51.5rem;
+  padding: 0.5rem 5.6rem 0.7rem 2rem;
+  font-size: 1.8rem;
+  font-family: 'HelveticaNeueCyr_medium', sans-serif;
+  border-radius: 2px 0 0 2px;
+  background-color: #18a7d0;
+}
+.billet-watch {
+  display: block;
+  display: table;
+}
+.billet-watch-block {
+  display: table-cell;
+}
+.billet-watch-block img {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.billet-bag {
+  display: table;
+}
+.billet-bag-block {
+  display: table-cell;
+}
+.billet-bag-block img {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.billet-bag-block p {
+  margin-right: 5rem;
+}
+.billet-form {
+  margin-top: 2.5rem;
+  margin-bottom: 2.3rem;
+  padding: 0 4.6rem 3.6rem 4.6rem;
+  text-align: center;
+  border: 4px solid #21A3AF;
+  background-color: #000;
+}
+.billet-form-header {
+  margin-top: 4.2rem;
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+  font-family: 'HelveticaNeueCyr_medium', sans-serif;
+}
+.billet-form-input {
+  padding: 0 0 0 2.4rem;
+  margin-top: 0.7rem;
+  width: 27rem;
+  height: 5.4rem;
+  font-size: 1.8rem;
+  font-family: 'HelveticaNeueCyr_light', sans-serif;
+  background-color: #000;
+  color: #ffffff;
+  border: 2px solid #666666;
+  border-radius: 2px;
+}
+.billet-form-button {
+  margin-top: 1.1rem;
+  margin-bottom: 1.1rem;
+  width: 27rem;
+  height: 6.2rem;
+  font-size: 1.8rem;
+  font-family: 'HelveticaNeueCyr_bold', sans-serif;
+}
+.billet-small {
+  margin-bottom: 3.6rem;
+  font-size: 1.5rem;
+  font-family: 'HelveticaNeueCyr_light', sans-serif;
+}

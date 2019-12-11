@@ -17,7 +17,7 @@ $mail->Password = '12367RUSSIa16';                           // Наш паро�
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
  
-$mail->setFrom('mail@mail.ru', 'John Doe');   // От кого письмо 
+$mail->setFrom('dmitry_perelyg@mail.ru', 'Dmitry Perelygin');   // От кого письмо 
 $mail->addAddress('diperelygin@yandex.ru');     // Add a recipient
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
@@ -27,7 +27,7 @@ $mail->addAddress('diperelygin@yandex.ru');     // Add a recipient
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = 'Это тема сообщения';
+$mail->Subject = 'Заказ консультации';
 $mail->Body    = '
 	Пользователь оставил свои данные <br> 
 	Имя: ' . $name . ' <br>
